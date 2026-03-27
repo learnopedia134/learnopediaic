@@ -49,10 +49,13 @@ const Home = () => {
     <div className="min-h-screen bg-white">
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm shadow-sm z-50">
-        <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+        <div className="container mx-auto px-4 py-3 flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <GraduationCap className="h-8 w-8 text-purple-600" />
-            <span className="text-2xl font-bold text-purple-600">Learnopedia</span>
+            <img 
+              src="https://customer-assets.emergentagent.com/job_learnopedia-deploy/artifacts/pe7zb9h0_IMG_2828.jpeg" 
+              alt="Learnopedia Logo" 
+              className="h-12 w-auto"
+            />
           </div>
           <button
             onClick={handleWhatsApp}
@@ -459,9 +462,12 @@ const Home = () => {
         <div className="container mx-auto">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <div className="flex items-center gap-2 mb-4">
-                <GraduationCap className="h-8 w-8 text-orange-400" />
-                <span className="text-2xl font-bold">Learnopedia</span>
+              <div className="mb-4">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_learnopedia-deploy/artifacts/pe7zb9h0_IMG_2828.jpeg" 
+                  alt="Learnopedia Logo" 
+                  className="h-16 w-auto brightness-0 invert"
+                />
               </div>
               <p className="text-purple-100">
                 Empowering students to achieve their global education dreams through personalized guidance and expert support.
