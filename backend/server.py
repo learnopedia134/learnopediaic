@@ -114,9 +114,19 @@ async def submit_lead(input: LeadCreate):
         raise HTTPException(status_code=500, detail=str(e))
 
 @api_router.get("/leads", response_model=List[Lead])
-async def get_leads():
+async def get_leads(skip: int = 0, limit: int = 100):
     try:
-        leads = await db.leads.find({}, {"_id": 0}).to_list(1000)
+        # Validate pagination parameters
+        if skip < 0:
+            skip = 0
+        if limit < 1 or limit > 100:
+            limit = 100
+            
+        # Fetch leads with pagination and field projection
+        leads = await db.leads.find(
+            {}, 
+            {"_id": 0}
+        ).sort("timestamp", -1).skip(skip).limit(limit).to_list(limit)
         
         # Convert ISO string timestamps back to datetime objects
         for lead in leads:
