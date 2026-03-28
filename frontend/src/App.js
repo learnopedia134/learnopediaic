@@ -77,7 +77,7 @@ const Home = () => {
                 Turn Your Global Dreams Into Reality
               </h1>
               <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-                From scientific career mapping to visa approval—your complete, stress-free pathway from Surat to top universities in the UK, Latvia, and beyond.
+                From scientific career mapping to visa approval—your complete, stress-free pathway to top universities in the UK, Latvia, and beyond.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
