@@ -227,7 +227,7 @@ const Home = () => {
                   <h3 className="text-3xl font-bold text-purple-600">Test Preparation & Language Training</h3>
                 </div>
                 <p className="text-gray-700 mb-6 text-lg leading-relaxed">
-                  Achieve your target scores with our expert-led preparation courses for IELTS, TOEFL, SAT, PTE and other essential exams. Learn from experienced trainers like Dr. Imran Surti.
+                  Achieve your target scores with our expert-led preparation courses for IELTS, TOEFL, and other essential exams. Learn from experienced trainers like Dr. Imran Surti.
                 </p>
                 <ul className="space-y-3 text-gray-600">
                   <li className="flex items-start gap-2">
