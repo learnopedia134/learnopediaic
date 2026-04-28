@@ -18,7 +18,7 @@ const Home = () => {
   const [submitStatus, setSubmitStatus] = useState(null);
 
   const handleWhatsApp = () => {
-    const message = encodeURIComponent("Hi! I'm interested in learning more about Learnopedia's services for studying abroad.");
+    const message = encodeURIComponent("Hi! I'm interested in learning more about Learnopedia's services.");
     window.open(`https://wa.me/919426875138?text=${message}`, '_blank');
   };
 
