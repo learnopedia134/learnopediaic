@@ -155,7 +155,7 @@ const Home = () => {
                   <h3 className="text-3xl font-bold text-purple-600">Overseas Education Consulting</h3>
                 </div>
                 <p className="text-gray-700 mb-6 text-lg leading-relaxed">
-                  Navigate your path to prestigious universities in the UK, USA , Canada ,Europe  and other top destinations. We handle everything from university selection to visa approval, ensuring a smooth journey to your dream institution.
+                  Navigate your path to prestigious universities in the UK, USA, Canada, Europe and other top destinations. We handle everything from university selection to visa approval, ensuring a smooth journey to your dream institution.
                 </p>
                 <ul className="space-y-3 text-gray-600">
                   <li className="flex items-start gap-2">
